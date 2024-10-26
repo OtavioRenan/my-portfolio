@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <title>Frontend FAQ</title>
+</head>
+<body>
+
+<nav id="main-nav" aria-label="main navigation">
+    <div class="logo">Otavio Menezes</div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#experience">Experiências</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav" aria-label="hamburger navigation">
+    <div class="logo">Otavio Menezes</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu();">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <dl class="hamburger-links">
+            <dt><a href="#about" onclick="toggleMenu();">Sobre</a></dt>
+            <dt><a href="#experience" onclick="toggleMenu();">Experiências</a></dt>
+            <dt><a href="#projects" onclick="toggleMenu();">Projetos</a></dt>
+            <dt><a href="#contact" onclick="toggleMenu();">Contato</a></dt>
+        </dl>
+    </div>
+
+</nav>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
