@@ -1,0 +1,10 @@
+:root {
+    --primary: rgb(85, 85, 85);
+    --secondary: rgb(181, 181, 181);
+    --third: rgb(53, 53, 53);
+    --fourth: rgb(0, 0, 0);
+    --fifth: rgb(255, 255, 255);
+    --sixth: rgb(163, 163, 163);
+    --black: black;
+    --white: white;
+}
