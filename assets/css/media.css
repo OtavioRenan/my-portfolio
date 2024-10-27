@@ -7,3 +7,11 @@
         display: flex !important;
     }
 }
+
+@media screen and (max-width: 766px) {
+    .about-group .row {
+        width: 100vh !important;
+    }
+}
+
+
