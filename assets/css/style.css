@@ -67,6 +67,7 @@ dt:hover {
 
 .icon {
     cursor: pointer;
+    width: 2rem;
     height: 2rem;
 }
 
@@ -87,6 +88,10 @@ dt:hover {
 
 section {
     padding: 15vh 4vh 4vh 4vh;
+
+    footer {
+        padding: 0 4vh 4vh 4vh;
+    }
 }
 
 .arrow {

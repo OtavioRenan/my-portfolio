@@ -15,3 +15,23 @@
 }
 
 
+@media screen and (max-width: 766px) {
+    #sec-nav {
+        .nav-links {
+            gap: 5% !important;
+        }
+
+
+        a {
+            font-size: 60%;
+        }
+
+        ul {
+            margin-left: -20% !important;
+        }
+    }
+
+    footer span {
+        font-size: 85%;
+    }
+}
