@@ -71,6 +71,12 @@ dt:hover {
     height: 2rem;
 }
 
+.icon-s1 {
+    cursor: pointer;
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
 .text-p1 {
     text-align: center;
 }
@@ -90,7 +96,7 @@ section {
     padding: 15vh 4vh 4vh 4vh;
 
     footer {
-        padding: 0 4vh 4vh 4vh;
+        padding: 0 4vh 0 4vh;
     }
 }
 
@@ -101,7 +107,8 @@ section {
 }
 
 #experience,
-#about {
+#about,
+#contact{
     .title {
         padding-bottom: 2rem;
     }
@@ -338,4 +345,19 @@ section {
 #experience article {
     padding: 1.5rem;
     margin-left: -1.5rem;
+}
+
+/* CONCAT */
+#contact .contact-group {
+    border-radius: 2rem;
+    border: var(--third) 0.1rem solid;
+    border-color: var(--sixth);
+    background: var(--fifth);
+    max-width: 550px;
+    padding: 2rem;
+}
+
+#contact .contact-content {
+    font-size: larger;
+    font-weight: normal;
 }
