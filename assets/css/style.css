@@ -108,9 +108,10 @@ section {
 
 #experience,
 #about,
-#contact{
+#contact {
     .title {
         padding-bottom: 2rem;
+
     }
 }
 
@@ -328,8 +329,8 @@ section {
 
 /* EXPERIENCE */
 #experience .experience-collection {
-    margin-left: 52px;
-    margin-right: 35px;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 #experience .experience-group {
